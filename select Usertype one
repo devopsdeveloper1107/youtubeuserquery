@@ -1,0 +1,20 @@
+//method one
+
+//replace the below code on your components.
+
+ {
+             showhide==='1' && (
+                 <div className="col-md-10 form-group mb-3">
+                     <label className="mb-2">User Address 1</label>
+                     <textarea name="address1" className="form-control"></textarea>
+                 </div>
+                 
+                  <div className="col-md-10 form-group">
+            <label className="mb-2">User Address 2</label>
+            <textarea name="address2" className="form-control"></textarea>
+
+               </div>
+
+             )
+
+           }
